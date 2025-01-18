@@ -40,3 +40,6 @@ sc.pp.normalize_total(adata, target_sum=1e4)
 sc.pp.log1p(adata)
 sc.pp.highly_variable_genes(adata, min_mean=0.0125, max_mean=3, min_disp=0.5)
 sc.pl.highly_variable_genes(adata)
+
+adata = sc.datasets.blobs()
+sc.pl.clustermap(adata)

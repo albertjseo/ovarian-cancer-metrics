@@ -24,3 +24,6 @@ I hope to expand improve my preprocessing methods to minimize data skewing, allo
 
 ## High Variable Genes
 ![img_3.png](img_3.png)
+
+## Hierarchically-Clustered Heatmap - Gaussian Blobs
+![img_2.png](img_2.png)
